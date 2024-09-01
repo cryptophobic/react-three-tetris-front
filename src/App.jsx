@@ -13,13 +13,6 @@ function App() {
                 antialias: true,
                 alpha: true,
             }}
-            //orthographic
-            camera={{
-                fov: 75,
-                near: 0.1,
-                far: 100,
-                position: [2, 2, 5]
-            }}
             onCreated={creatingCanvasHandler}
         >
             <Scene />
